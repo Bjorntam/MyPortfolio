@@ -90,6 +90,7 @@ color: hsl(108, 30%, 60%);
   position: relative;
   width: 35em;
   height: 300px;
+  height: auto;
 }
 .detail h3{
   color: aliceblue;
