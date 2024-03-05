@@ -153,6 +153,8 @@ body::before {
   right: 35em;
   border: solid aliceblue;
   border-radius: 10px;
+  width: 600;
+  height: 500;
 }
 .portfolio h2{
   text-align: right;
@@ -294,13 +296,20 @@ body::before {
     right: 7em;
     border: 10px solid aliceblue;
     border-radius: 10px;
+    width: 960px;
+    height: 960px;
   }
   .footer{
     font-size:35px;
     margin-top: 70em;
     width: 40em;
   }
-
+  body::before {  
+    width: 3000px;
+    height: 3000px;
+    margin-left: -25em;
+    margin-top: -500px;    
+  }
 }
 
 
