@@ -6,7 +6,7 @@ body{
   font-family: 'CustomFont';
   height: 100em;
   background-color:#364B31;
-
+  width:100%;
 }
 .main-component{
     display: block;
