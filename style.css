@@ -228,5 +228,12 @@ color: hsl(108, 30%, 60%);
     margin-right:4px;
   }
 }
-
+@media only screen and (max-width: 360px) {
+  .menu a{
+    font-size: 30px; 
+    font-weight: 300;
+    margin-left: 4px;
+    margin-right:4px;
+  }
+}
 
