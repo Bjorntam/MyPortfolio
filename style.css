@@ -11,7 +11,7 @@ body{
 .main-component{
     display: block;
     margin: 0px auto;
-    max-width: 1280px;
+    width: 1280px;
 }
 a {
   color: inherit; 
@@ -82,7 +82,6 @@ body::before {
   border-radius: 10px;
   z-index: 2;
   transition: opacity 1s ease-in-out;
-
 }
 .detail h3{
   color: aliceblue;
@@ -203,11 +202,7 @@ body::before {
   font-weight: 900px;
 }
 .footer{
- 
-
   color: rgba(255, 255, 255, 1); 
- 
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,20 +216,91 @@ body::before {
 
 @media only screen and (max-width: 412px) {
   .main-component{
-    width: 412px;
+     width: 420px;
   }
-  
   .menu{
-    margin-right: 100px;
-    margin-top:40px;
+    margin-top:3em;
   }
   .menu a{
-    
     font-size: 70px; 
     font-weight: 300;
-    margin-left: 4px;
-    margin-right:4px;
+    margin-left: 25px;
+    margin-right:25px;
   }
+  .detail{  
+    top: 50px; 
+    width: 75em;
+    height: auto;
+  }
+  .front-picture{
+    visibility: collapse;
+  }
+  .detail h2{
+    font-size: 14em;
+    font-weight: 700;
+    margin-left: 100px; 
+  }
+  .detail h3{
+    font-size: 5em;
+    margin-left: 350px;
+  }
+  .detail p{
+    font-size: 3em;
+  }
+  #img-size{
+    width:  1478px;
+    height: 676px;
+
+  }
+  .detail img{
+    margin-left: -150px;
+    margin-top: -70px;
+    
+  }
+  .detail button{
+    padding: 22px 27px; 
+    font-size: 3em;
+    font-weight: 20;
+    left: 440px;
+    border: 10px solid #00FFF7; 
+    border-radius: 50px; 
+  }
+  .portfolio{  
+    top: 25em;
+    left: 6em;
+    width: 75em;
+    height: 10em;
+  }
+  .portfolio h2{
+    bottom: 7em;
+    left: 1em;
+    font-size:5em;
+  }
+  .portfolio p{
+    margin-left:0em;
+    font-size:3em;;
+  }
+  .portfolio button{
+    padding: 22px 27px; 
+    font-size: 3em;
+    font-weight: 20;
+    left: 8em;
+    top: 40em;
+    border: 10px solid #00FFF7; 
+    border-radius: 50px; 
+  }
+  .work-picture{ 
+    top: 55em;
+    right: 7em;
+    border: 10px solid aliceblue;
+    border-radius: 10px;
+  }
+  .footer{
+    font-size:35px;
+    margin-top: 70em;
+    width: 40em;
+  }
+
 }
 
 
