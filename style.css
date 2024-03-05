@@ -4,27 +4,26 @@
 }
 body{
   font-family: 'CustomFont';
-  height: auto;
+  height: 100em;
   background-color:#364B31;
-}
 
+}
 .main-component{
     display: block;
     margin: 0px auto;
     width: 1280px;
 }
-
 a {
   color: inherit; 
   text-decoration: none; 
 }
-/* body::before {  
+body::before {  
   content: "";
   position: fixed;
-  width: 1500px;
-  height: 1500px;
-  margin-left: -100px;
-  margin-top: -300px;
+  width: 2500px;
+  height: 2500px;
+  margin-left: 0px;
+  margin-top: -650px;
   background-image: url('image/grid.png');
   background-size:cover;
   background-repeat: no-repeat;
@@ -33,8 +32,7 @@ a {
   z-index: -1;
   transform: rotate(100deg); 
   animation: rotateBackground 265s linear infinite; 
-} */
-
+}
 @keyframes rotateBackground {
   from {
     transform: rotate(0deg); 
@@ -68,7 +66,6 @@ a {
   margin-right: 50px;
   font-weight :500;
 }
-
 .detail{  
   top: 150px;
   left: 100px;
@@ -76,6 +73,16 @@ a {
   width: 35em;
   height: 300px;
   height: auto;
+}
+.front-picture{ 
+  position: absolute;
+  left: 740px;
+  top: 15px;
+  border: solid aliceblue;
+  border-radius: 10px;
+  z-index: 2;
+  transition: opacity 1s ease-in-out;
+
 }
 .detail h3{
   color: aliceblue;
@@ -135,12 +142,18 @@ a {
   font-weight: 900px;
 }
 .portfolio{  
-  position: absolute;
-  top: 60em;
-  left: 50em;
-
-  width: 35em;
+  position: relative;
+  top: 25em;
+  left: 27em;
+  width: 50em;
   height: 10em;
+}
+.work-picture{ 
+  position: absolute;
+  margin-left: 20px;
+  right: 35em;
+  border: solid aliceblue;
+  border-radius: 10px;
 }
 .portfolio h2{
   text-align: right;
@@ -155,7 +168,7 @@ a {
   font-variation-settings:"wdth" 100;
 }
 .portfolio p{
- 
+  margin-left:15em;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -166,7 +179,7 @@ a {
 }
 .portfolio button{
   position: absolute;
-  left: 24em;
+  left: 39em;
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -189,24 +202,22 @@ a {
   color: black;
   font-weight: 900px;
 }
+.footer{
+ 
 
-.front-picture{ 
-  position: absolute;
-  left: 740px;
-  top: 15px;
-  border: solid aliceblue;
-  border-radius: 10px;
-  z-index: 2;
-  transition: opacity 1s ease-in-out;
+  color: rgba(255, 255, 255, 1); 
+ 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Optional: for centering text within the footer */
+  padding: 20px; /* Optional: add padding to the footer */
+  text-align: center; 
+  font-size: 15px;
+  margin-top: 51em;
+}
 
-}
-.work-picture{ 
-  position: absolute;
-  top: 60em;
-  left: 5em;
-  border: solid aliceblue;
-  border-radius: 10px;
-}
 
 @media only screen and (max-width: 412px) {
   
