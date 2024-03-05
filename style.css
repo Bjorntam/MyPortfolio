@@ -11,7 +11,7 @@ body{
 .main-component{
     display: block;
     margin: 0px auto;
-    width: 1280px;
+    max-width: 1280px;
 }
 a {
   color: inherit; 
