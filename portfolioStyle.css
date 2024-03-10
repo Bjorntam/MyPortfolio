@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/RobotoMono.ttf') format('truetype')  
+  }
+  body{
+    font-family: 'CustomFont';
+    background-color:#364B31;
+  }
+  body::before {  
+    content: "";
+    position: fixed;
+    width: 2500px;
+    height: 2500px;
+    margin-left: 0px;
+    margin-top: -650px;
+    background-image: url('image/grid.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2; 
+    z-index: -1;
+    transform: rotate(100deg); 
+    animation: rotateBackground 265s linear infinite; 
+  }
+  @keyframes rotateBackground {
+    from {
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .main-container{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+  }
+  .header-fixed {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    font-family: 'CustomFont';
+    background-color: rgba(41,62,0, .50);
+    z-index: 9999; /* Ensure it stays on top */
+    text-align: center; /* Center the content horizontally */
+  }
+  .header-fixed nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .header-fixed nav ul li {
+    display: inline;
+  }
+  .header-fixed nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1); 
+    transition: margin-left 0.3s, margin-right 0.3s, color 0.3s, font-weight 0.3s;
+  }
+  .header-fixed nav ul li a:hover { 
+    color: #87B87B;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight :500;
+  }
+  .punic{
+   
+    display: block;
+    margin: auto;
+    width: 90%; /* Adjust width as needed */
+    height: 53em; /* Adjust height as needed */
+    position: relative;
+    top: 7em;   
+    overflow:visible;
+  }
+  .punic h1{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 350;
+    color: aliceblue;
+  }
+  .punic h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 350;
+    color: aliceblue;
+  }
+  .punic img{
+    float: left;
+    margin: 20px;
+    border: solid 2px aliceblue;
+    border-radius: 10px;
+  }
+  .punic p{
+    text-align: justify;
+    margin-bottom: 10em;
+    color: aliceblue;
+  }
+  .punic_img{
+    position: relative;
+    left: 8em;
+  }
+  .deecor{
+    display: block;
+    margin-top: 9em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; /* Adjust width as needed */
+    height: 80vh; /* Adjust height as needed */
+    position: static;
+    overflow:visible;
+  }
+  .deecor img{
+    float: left;
+    margin: 20px;
+    margin-top: 3em;
+    border: solid 2px aliceblue;
+    border-radius: 10px;
+  }
+  .deecor h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 350;
+    color: aliceblue;
+  }
+  .deecor p{
+    text-align: justify;
+    margin-bottom: 10em;
+    color: aliceblue;
+  }
+  .deecor_img{
+    position: relative;
+    left: 8em;
+  }
+  .footer{
+    font-size:16px;
+    margin-top: 16em;
+    margin-left: 27em;
+    width: 40em;
+    color: aliceblue;
+  }
+
+  @media only screen and (max-width: 425px) {
+    .header-fixed {
+      top: 30px;
+      left: 0;
+      width: 100%;
+    }
+    .header-fixed nav ul li a {
+      font-size: 40px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    .punic{
+      width: 60em; 
+      height: 50em;
+      top: 7em;   
+      left: 3.5em;
+    }
+    .punic h1{
+      text-align: center;
+      font-size: 10em;
+      font-weight: 350;
+    }
+    .punic h2{
+      text-align: center;
+      font-size: 8em;
+      font-weight: 350;
+    }
+    #punic1{
+      width: 864px ;
+      height: 486px  ;
+      margin-left: 3em;
+    }
+    .punic p{
+      font-size: 2em;
+      margin-bottom: 10em;
+      margin-top: -3em;
+    }
+    .punic_img{
+      position: relative;
+      left: 4em;
+      top: -15em;
+    }
+    #team1{
+      width: 767.5px;
+      height: 575px;
+    }
+    #team2{
+      width: 767.5px;
+      height: 575px;
+    }
+    #team3{
+      width: 767.5px;
+      height: 575px;
+    }
+    .deecor{
+      width: 60em; 
+      height: 50em;
+      top: 7em;   
+      left: 3.5em;
+      margin-top: 170em;
+      position: relative;
+    }
+    #deecor1{
+      width: 864px ;
+      height: 486px  ;
+      margin-left: 3em;
+    }
+    .deecor h2{
+      text-align: center;
+      font-size: 8em;
+      font-weight: 350;
+    }
+    .deecor p{
+      font-size: 2em;
+      margin-bottom: 10em;
+      margin-top: -2em;
+    }
+    .deecor_img{
+      position: relative;
+      left: 4em;
+      top: -15em;
+    }
+    #prev{
+      width: 767.5px;
+      height: 575px;
+    }
+    #prev2{
+      width: 767.5px;
+      height: 575px;
+    }
+    #prev3{
+      width: 767.5px;
+      height: 575px;
+    }
+    .footer{
+      font-size:16px;
+      margin-top: 200em;
+      margin-left: 15em;
+      width: 40em;
+      margin-bottom: 10px;
+    }
+    body::before {  
+      width: 3000px;
+      height: 3000px;
+      margin-left: -25em;
+      margin-top: -500px;    
+    }
+  }
