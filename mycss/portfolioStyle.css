@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/RobotoMono.ttf') format('truetype')  
+  }
+  body{
+    font-family: 'CustomFont';
+    height: 100em;
+    background-color:#364B31;
+  }
+ 
+  .main-container{
+    display: block;
+    margin: 0px auto;
+    max-width: 1280px;
+    background-color: #49fa1d;
+    
+}
