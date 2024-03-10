@@ -256,3 +256,38 @@
       margin-top: -500px;    
     }
   }
+
+  @media only screen and ( max-width: 1864px) {
+   
+    #team1{
+      width:  276.3px;
+      height: 207px;
+    }
+    #team2{
+      width:  276.3px;
+      height: 207px;
+    }
+    #team3{
+      width:  276.3px;
+      height: 207px;
+    }
+    #prev{
+      width:  276.3px;
+      height: 207px;
+    }
+    #prev2{
+      width:  276.3px;
+      height: 207px;
+    }
+    #prev3{
+      width:  276.3px;
+      height: 207px;
+    }
+    .footer{
+      font-size:16px;
+      margin-top: 16em;
+      margin-left: 43em;
+      width: 40em;
+      color: aliceblue;
+    }
+  }
