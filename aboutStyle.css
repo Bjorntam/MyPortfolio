@@ -1,0 +1,73 @@
+body{
+    height: 100%;
+}
+.about_me{
+    margin: auto;
+    width: 90%; 
+    position: relative;
+    text-align: justify;
+    top: 7em;   
+    overflow:visible;
+    color: aliceblue;
+}
+.about_me h2{
+    font-size: 50px;
+}
+.interest{
+    top: 10em;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    color: aliceblue;
+}
+.interest img{
+      float: left;
+      border: solid white;
+      border-radius: 10px;
+}
+.interest h4{
+    padding-left: 19em;
+    font-size: 24px;
+
+}
+.interest p{
+    padding-left: 28em;
+    text-align: justify;
+}
+.passion{
+    margin-top: 28em;
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto;
+    color: aliceblue;
+}
+.passion h3{
+    text-align: center;
+}
+.passion p{
+    text-align: justify;
+}
+.img {
+    width: 90%;
+    margin: 5em auto;
+    text-align: center; 
+}
+
+.img img {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin: 0 5px;
+    border: solid white;
+    border-radius: 10px;
+}
+.about_footer{
+    color: rgba(255, 255, 255, 1); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Optional: for centering text within the footer */
+    padding: 20px; /* Optional: add padding to the footer */
+    text-align: center; 
+    font-size: 15px;
+    margin-top: 5em;
+  }
