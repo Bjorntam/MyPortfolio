@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var images = ["image/bjorno.jpg", "image/bjorno2.jpg",
+  var images = ["image/bjorno.jpg", "image/bjorno6.jpg",
                 "image/bjorno3.jpg","image/bjorno4.jpg",
-                "image/bjorno5.jpg","image/bjorno6.jpg"]; 
+                "image/bjorno5.jpg","image/bjorno2.jpg"]; 
   var index = 0;
   var imageElement = document.getElementById("image");
 

@@ -6,7 +6,7 @@
   }
   body{
     font-family: 'CustomFont';
-    height: 100em;
+    height: 20em;
     background-color:#364B31;
     width:100%;
     overflow-x: hidden;
@@ -83,7 +83,7 @@
     position: relative;
     width: 35em;
     height: auto;
-    top: 10em;    
+    top: 4em;    
   }
   .main-component h3{
     text-align: center;
@@ -96,7 +96,7 @@
     position: relative;
   /*  background-color:#696969; */
     width:1150px;
-    right: 22em;
+    right: 21em;
     margin:auto;
     display: flex;
     justify-content:space-between;
@@ -165,3 +165,14 @@
       margin: 0px;
       padding: 0px;
     }
+    .footer{
+  color: rgba(255, 255, 255, 1); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  padding: 20px; 
+  text-align: center; 
+  font-size: 15px;
+  margin-top: 9em;
+}
