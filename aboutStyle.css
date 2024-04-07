@@ -1,5 +1,6 @@
 body{
     height: 100%;
+    overflow-x: hidden;
 }
 .about_me{
     margin: auto;
@@ -65,8 +66,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; /* Optional: for centering text within the footer */
-    padding: 20px; /* Optional: add padding to the footer */
+    text-align: center; 
+    padding: 20px;
     text-align: center; 
     font-size: 15px;
     margin-top: 5em;

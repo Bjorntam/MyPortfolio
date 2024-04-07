@@ -7,6 +7,7 @@ body{
   height: 100em;
   background-color:#364B31;
   width:100%;
+  overflow-x: hidden;
 }
 .main-component{
     display: block;
